@@ -16,6 +16,7 @@ import ml from "../assets/icons/skills-icon/ml.png"
 
 // projectImagess
 import respireX from "../assets/images/projectImages/project10.jpg"
+import insightify from "../assets/images/projectImages/project11.png"
 import qz from "../assets/images/projectImages/project2.png"
 import tesla from "../assets/images/projectImages/project3.png"
 import emd from "../assets/images/projectImages/project4.png"
@@ -41,6 +42,18 @@ export const Projects = {
         },
         "githubLink": "https://github.com/IrfanNaikwade28/RespireX.git"
     },
+    "Insightify": {
+        "image": insightify, 
+        "title": "Insightify",
+        "subTitle": "YouTube Comment Analyzer Tool",
+        "insights": {
+            "desc": `Insightify is a YouTube comment sentiment and toxicity analysis app built with React Native. It leverages AI and NLP to deliver instant feedback on audience emotion, public demands, and content suggestions. Ideal for creators aiming to understand and improve their engagement.`,
+            "category": "AI, NLP, React Native, Mobile App",
+            "techStack": [react, tailwind, py, django, ml],
+            "reportLink": ""
+        },
+        "githubLink": "https://github.com/IrfanNaikwade28/Insightify.git"
+    },
     "MetaShield": {
         "image": metashield,
         "title": "MetaShield",
@@ -50,7 +63,7 @@ export const Projects = {
                   using only metadata—no content analysis required! It enhances security and compliance with regulations
                   like GDPR, HIPAA, and DPDP by automating document classification.`,
             "category": "Cybersecurity, AI/ML, Web Application",
-            "techStack": [py,django, react, tailwind, ml],
+            "techStack": [py, django, react, tailwind, ml],
             "reportLink": ""
         },
         "githubLink": "https://github.com/IrfanNaikwade28/MetaShield.git"

@@ -89,11 +89,11 @@ export const AboutMe = () => {
                 viewport={{ amount: 0.7 }}
                 className="about-me text-white text-sm leading-5 mt-3 text-justify"
               >
-                Hi, I&apos;m Irfan! I’ve completed a Diploma in Computer Science
-                and Engineering and I am currently pursuing a B.Tech in Data
-                Science. With a passion for web development and design, I’m
-                dedicated to creating dynamic and responsive websites that
-                deliver seamless user experiences.
+               I am Mahabub Alam Tamim, a Computer Science and Engineering student focused on Flutter app development.
+               With 5+ years of experience in branding, content creation, video editing, and graphic design, I blend tech and creativity.
+               My core strength lies in building cross-platform mobile apps that are user-centric and performance-driven.
+               I craft impactful brand experiences through authentic storytelling and strategic content design.
+               My work aligns technology with culture to drive engagement and meaningful digital impact.
               </motion.div>
               <a href={doc} target="_blank">
                 <button

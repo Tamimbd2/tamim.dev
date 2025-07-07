@@ -6,7 +6,7 @@ import github from "../assets/icons/github.svg";
 import scrollIcon from "../assets/icons/scroll-animation.svg";
 export const HeroSect = () => {
   const [word, setWord] = useState("Developer");
-  const words = ["Developer", "Designer"];
+  const words = ["Developer", "Developer"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -22,10 +22,10 @@ export const HeroSect = () => {
           <div className="heroText h-full w-full z-30 flex flex-col md:justify-center">
             <div className="flex flex-col text-white pl-5 tracking-wide md:gap-1">
               <span className="font-semibold text-2xl md:text-4xl">
-                Hi! I&apos;m Irfan,
+                Hi! I&apos;m Tamim,
               </span>
               <span className="font-semibold text-2xl md:text-4xl flex">
-                A Web&nbsp;
+                An App &nbsp;
                 <motion.span
                   key={word}
                   initial={{ width: 0 }}
@@ -56,9 +56,9 @@ export const HeroSect = () => {
                 transition={{ duration: 1 }}
                 className="text-[#989898] font-normal text-[10px] md:text-sm md:w-[50%]"
               >
-                Combining development skills with creative design, <br />I
-                transform concepts into dynamic, user-centered <br /> web
-                solutions.
+                As a Flutter developer and digital content creator, <br />I 
+                design powerful mobile apps and produce impactful   <br /> 
+                videos— web merging technology and storytelling <br />  into one seamless experience.
               </motion.span>
             </div>
             <div className="buttons max-sm:absolute bottom-10 w-full flex max-sm:items-center max-md:flex-col text-white gap-3 text-[10px] tracking-widest pl-4 md:pl-5 mt-5">
@@ -99,7 +99,7 @@ export const HeroSect = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
                 className=""
-                href="https://www.linkedin.com/in/irfan-naikwade/"
+                href="https://www.linkedin.com/in/MahabubTamim/"
                 target="_blank"
               >
                 <img
@@ -113,7 +113,7 @@ export const HeroSect = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.2 }}
                 className=""
-                href="https://github.com/IrfanNaikwade28"
+                href="https://github.com/Tamimbd2"
                 target="_blank"
               >
                 <img

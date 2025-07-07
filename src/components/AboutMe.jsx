@@ -1,6 +1,6 @@
 import { RadarChart } from "./radarChart";
 import { easeInOut, motion } from "motion/react";
-import doc from "../assets/doc/download.pdf";
+import doc from "../src/assets/Doc/download.pdf";
 import character from "../assets/images/character-removebg-preview.png";
 import js from "../assets/icons/skills-icon/javascript.svg";
 import cpp from "../assets/icons/skills-icon/cpp.svg";
